@@ -1,0 +1,85 @@
+/* El código CSS `*{ margen: 0; relleno: 0; alineación vertical: línea de base; }` es una regla de restablecimiento de CSS que establece
+las propiedades de margen, relleno y alineación vertical a valores específicos para todos los elementos en el
+Página web. */
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    
+}
+
+/* El código CSS `*::before, *::after` está dirigido a los pseudoelementos `::before` y `::after` para todos
+elementos en la página web. */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+/* La regla CSS `html { comportamiento de desplazamiento: suave; }` está configurando el comportamiento de desplazamiento para HTML
+elemento para que sea suave. Esto significa que cuando un usuario hace clic en un enlace que navega a un sitio diferente
+parte de la página web, la acción de desplazamiento será animada y suave en lugar de un salto instantáneo a
+la ubicación de destino. Esto crea una experiencia más atractiva visualmente y fácil de usar para el sitio web.
+visitantes. */
+html {
+    scroll-behavior: smooth;
+}
+
+/* El código CSS para `body` establece múltiples propiedades para el elemento body de la página web: */
+body{
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* El código CSS `ul, ol { estilo de lista: ninguno; }` apunta tanto a listas desordenadas (`ul`) como a listas ordenadas
+listas (`ol`) en la página web y estableciendo su propiedad de estilo de lista en `none`. Esta regla elimina la
+viñetas predeterminadas para listas desordenadas y numeración predeterminada para listas ordenadas, de manera efectiva
+eliminando cualquier marcador de estilo de lista de estos elementos. Esto puede resultar útil para personalizar el
+Aspecto de las listas en el diseño de una página web. */
+ul, ol {
+    list-style: none;
+
+}
+
+/* El código CSS `a { display: block; decoración de texto: ninguna; familia de fuentes: heredar; tamaño de fuente: heredar;
+color: heredar; }` está aplicando estilo a los elementos de anclaje (`<a>`) en la página web. Esto es lo que cada propiedad
+hace: */
+a{
+    display: block;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+/* La regla CSS `p a { display: inline; }` apunta a elementos ancla (`<a>`) que están anidados dentro
+párrafos (`<p>`). Establece la propiedad de visualización de estos elementos de anclaje en "en línea", lo que significa
+que los elementos de anclaje se mostrarán en línea con el texto circundante dentro de los párrafos.
+Esta regla anula el comportamiento de visualización predeterminado a nivel de bloque de los elementos de anclaje y los hace fluir.
+en línea dentro del contenido del párrafo. */
+p a {
+    display: inline;
+}
+
+/* El código CSS `img, video, iframe, imagen, figura {
+    ancho máximo: 100%;
+    mostrar: bloquear;
+}` está diseñando elementos específicos en la página web. Esto es lo que hace cada propiedad: */
+img, video, iframe, picture, figure {
+    max-width: 100%;
+    display: block;
+}
+
+/* El código CSS `formulario, entrada, selección, área de texto, botón, etiqueta { display: block; familia de fuentes: heredar;
+tamaño de fuente: heredar; color: heredar; }` está diseñando varios elementos relacionados con el formulario en la página web.
+Esto es lo que hace cada propiedad: */
+form, input, select, textarea, button, label {
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
