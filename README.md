@@ -1,3 +1,5 @@
+![Imagen Portafolio](assets/img/xavier_README.png)
+
 # Portafolio Personal
 
 ¡Bienvenido a mi portafolio personal! Este proyecto ha sido creado utilizando HTML, CSS3 y JavaScript para mostrar mis habilidades y proyectos como desarrollador junior.
